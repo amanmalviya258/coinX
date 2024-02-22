@@ -1,39 +1,3 @@
-KoinX (Root Project Folder)
-├── src/
-│   ├── api/
-│   │   ├── controllers/
-│   │   │   ├── cryptoController.js
-│   │   │   └── companyController.js
-│   │   ├── middlewares/  
-│   │   │   └──  
-│   │   ├── models/
-│   │   │   ├── Crypto.js
-│   │   │   └── Company.js
-│   │   └── routes/
-│   │       ├── cryptoRoutes.js
-│   │       └── companyRoutes.js
-│   ├── db/
-│   │   ├── models/ 
-│   │   │   ├── Crypto.js
-│   │   │   └── Company.js
-│   │   └── db.js
-│   ├── services/
-│   │   ├── CurrencyConversionService.js
-│   │   └── companyService.js
-│   ├── utils/
-│   │   ├── ApiError.js
-│   │   ├── ApiResponse.js
-│   │   ├── asyncHandler.js
-│   │   └── logger.js
-├── app.js 
-├── constants.js
-├── index.js
-├── .env 
-├── package.json 
-└── README.md 
-
-
-
 ```javascript
 const fileStructure = {
 `
