@@ -36,12 +36,6 @@ KoinX (Root Project Folder)
 └── README.md 
 
 
-`
-}
-```
-
-
-
 
 Endpoints.
 
@@ -77,3 +71,10 @@ Service: Service functions perform core logic.
 Calls external APIs (e.g., CurrencyConversionService calling CoinGecko)
 Processes and potentially saves data (e.g., with MongoDB).
 Response: The formatted response is sent back to the client.
+
+
+`
+}
+```
+
+
