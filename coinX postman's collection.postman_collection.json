@@ -1,0 +1,70 @@
+{
+	"info": {
+		"_postman_id": "d3a09eb0-70c4-41d1-b836-b5c36e9d2367",
+		"name": "coinX postman's collection",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "27574302"
+	},
+	"item": [
+		{
+			"name": "Task 2 Api",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"fromCurrency\": \"bitcoin\", \r\n    \"toCurrency\": \"eth\", \r\n    \"date\": \"15-12-2023\" \r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8000/api/crypto/convert",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8000",
+					"path": [
+						"api",
+						"crypto",
+						"convert"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Task 3 Api",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"currency\": \"ethereum\" \r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8000/api/company/holdings",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8000",
+					"path": [
+						"api",
+						"company",
+						"holdings"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
